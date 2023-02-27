@@ -1,0 +1,55 @@
+:root {
+    --background-color:#FFC700;
+    --bs-primary-rgb:#070707;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--bs-primary-rgb);
+    font-weight: 300;
+    font-size: 1.2rem;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Unbounded',cursive;
+    font-weight: 800;
+}
+
+.container-fluid-custom {
+    max-width: 1600px;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.home {
+
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #080808;
+    --bs-btn-border-color: #080808;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #080808;
+    --bs-btn-hover-border-color: #080808;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #080808;
+    --bs-btn-active-border-color: #080808;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #080808;
+    --bs-btn-disabled-border-color: #080808;
+}
